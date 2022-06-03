@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -11,6 +21,7 @@ body {
 .top_heading {
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
 
 }
 
@@ -48,4 +59,45 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.top_text {
+    width: 425px;
+}
+
+.main_product {
+    width: 359px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_info {
+    width: 495px;
+}
+
+.footer_heading {
+    width: 340px;
+}
+
+.contacts_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.contacts_form {
+    display: flex;
+}
+
+.map {
+    width: 100%;
 }
