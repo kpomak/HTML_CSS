@@ -3,26 +3,78 @@
     padding: 0;
 }
 
+hr {
+    opacity: 0.4
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .text {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.top {
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    height: 768px;
 }
 
 .top_heading {
     font-size: 64px;
     color: #1F3F68;
     width: 510px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
 
+.top_button {
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding: 15px 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 71px;
+    display: inline-block;
+}
+
+.top_content {
+    padding-top: 42px;
+}
+
+.top_text {
+    width: 425px;
+    margin-top: 32px;
+}
+
+.top_info {
+    margin-top: 115px;
+    flex-grow: 1;
+    background-image: url(pictures/bacground.svg);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.top_box {
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts_heading {
@@ -34,6 +86,26 @@ body {
 .context_heading {
     font-size: 36px;
     text-align: center;
+}
+
+.content_heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.what_we_do {
+    padding-top: 64px;
+}
+
+.product_image {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.product_heading {
+    margin-bottom: 15px;
 }
 
 .heading_mini {
@@ -67,17 +139,46 @@ body {
     list-style: none;
 }
 
-.top_text {
-    width: 425px;
-}
-
 .main_product {
     width: 359px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px;
+    box-sizing: border-box;
 }
 
 .main_content {
     display: flex;
     justify-content: space-around;
+    padding-top: 64px;
+}
+
+.product_link {
+    font-size: 14px;
+    line-height: 30px;
+    color: #5A98D0;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.product_link_container {
+    display: flex;
+    margin-top: 28px;
+}
+
+.bottom_content {
+    padding-top: 64px;
+}
+
+.bottom_text {
+    color: #222222;
+    margin: 32px auto 64px;
+    width: 75%;
+    text-align: center;
+    opacity: 1;
 }
 
 .footer_info {
@@ -86,12 +187,54 @@ body {
 
 .footer_heading {
     width: 340px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    text-align: left;
 }
 
-.contacts_list {
+.footer {
+    margin-top: 112px;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    background: #316099;
+}
+
+.footer_content {
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.footer_text {
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.footer_link {
+    display: inline-block;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    background: #5A98D0;
+    padding: 15px 80px;
+}
+
+.footer_list {
+    padding-left: 12px;
+    flex-grow: 1;
+    flex-basis: 33.3%;
+    margin-right: 16px;
+}
+
+
+.contacts_list {
+    padding-top: 64px;
+    display: flex;
+    color: #FFFFFF;
+    list-style-position: outside;
 }
 
 .contacts_form {
@@ -100,4 +243,44 @@ body {
 
 .map {
     width: 100%;
+}
+
+.project_item {
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+}
+
+.project_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.left_item {
+    margin-right: 32px;
+}
+
+.project_text {
+    position: absolute;
+    top: 64px;
+    right: 32px;
+    font-size: 32px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.project_text_app {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-size: 28px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin-top: 64px;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
