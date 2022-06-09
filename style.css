@@ -77,12 +77,6 @@ body {
     flex-direction: column;
 }
 
-.contacts_heading {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-
 .context_heading {
     font-size: 36px;
     text-align: center;
@@ -108,22 +102,27 @@ body {
     margin-bottom: 15px;
 }
 
-.heading_mini {
-    font-size: 20px;
-    line-height: 30px;
-    color: #1F3F68;
-}
-
 .input_data {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4;
+    padding-left: 36px;
+    margin-top: 8px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    
 }
 
 .submit_button {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border: 0;
+    height: 72px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -131,6 +130,9 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+    padding: 26px;
+    color: #FFFFFF;
+    margin-top: 72px;
 }
 
 .header {
@@ -234,16 +236,9 @@ body {
     padding-top: 64px;
     display: flex;
     color: #FFFFFF;
-    list-style-position: outside;
+    padding-left: 16px;
 }
 
-.contacts_form {
-    display: flex;
-}
-
-.map {
-    width: 100%;
-}
 
 .project_item {
     width: 100%;
@@ -283,4 +278,123 @@ body {
     margin-top: 64px;
     color: #FFFFFF;
     opacity: 0.4;
+}
+
+.contacts_top {
+    background-image: url(pictures/contacts.png);
+    margin-top: 55px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.contacts_heading {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.contacts_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 16px auto;
+    width: 75%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.send_us {
+    width: 540px;
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 56px;
+}
+
+.send_us_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+}
+
+.contacts_form {
+    display: flex;
+    max-width: 940px;
+    margin: 64px auto;
+    justify-content: space-between;
+
+}
+
+.heading_mini {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+}
+
+.text_form {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+
+.form_heading {
+    margin-bottom: 16px;
+}
+
+.container_map {
+    max-width: 940px;
+    margin: 96px auto;
+}
+
+.input_line {
+    height: 72px;
+}
+
+.input_box {
+    height: 144px;
+    padding-top: 21px;
+}
+
+.info_list {
+    list-style: none;
+    padding: 24px 0 40px;
+}
+
+.contacts_link {
+    display: flex;
+    padding-bottom: 16px; 
+}
+
+.icon {
+    margin-right: 18px;
+}
+
+.about_us_text {
+    width: 300px;
+    padding: 24px 0 40px;
+}
+
+.image_contacts {
+    margin-bottom: 56px;
 }
