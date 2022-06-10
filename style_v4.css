@@ -462,15 +462,14 @@ body {
     }
 
     .send_us {
+        max-width: 540px;
         width: 85%;
-
     }
 
     .container_map {
         margin: 48px auto;
-        width: 100%;
     } 
-    
+
 }
 
 
